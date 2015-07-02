@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Qual Dose?</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_settings">Sobre</string>
+    <string name="titulo_activity_main">Qual Dose?</string>
+    <string name="title_activity_tipo_medicamento">@string/app_name</string>
+    <string name="tipo_medicamento_analgesico_antitermico">Analgésicos e Antitérmicos</string>
+    <string name="tipo_medicamento_antiinfalatorio">Anti-Inflamatório</string>
+    <string name="tipo_medicamento_antibiotico">Antibióticos</string>
+    <string name="sobre_licensa">Esse aplicativo não é licensiado por nenhum laboratório farmaceutico.</string>
+    <string name="sobre_descricao">Essa aplicação foi desenvolvida para ser usada por estudantes de medicina. Seu uso para automedicação não é recomendado. Evite a automedicação, procure um médico!</string>
+    <string name="versao">Versao v</string>
+    <string name="btnCalcularTexto">Calcular</string>
+    <string name="sobre_autores">Aplicação desenvolvida por Jardel Cunha e Sarah Sorares, através de projeto de pesquisa da Universidade Federal do Acre.</string>
+    <string name="error_calculo">Ocorreu um erro durante o cálculo.</string>
+    <string name="dosage_label">Você\ irá receitar:</string>
+
+</resources>
