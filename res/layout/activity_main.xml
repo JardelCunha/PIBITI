@@ -56,7 +56,6 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="10dp"
                 android:text="@string/action_sobre"
-                android:onClick="VaParaSobre"
                 android:textSize="15sp" />
 
             <TextView
