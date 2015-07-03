@@ -30,28 +30,18 @@
                 android:src="@drawable/droppertexto" />
 
             <Button
-                android:id="@+id/btnAnalgesicoAntitermico"
-                android:layout_width="285dp"
+                android:id="@+id/btnNovoCalculo"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="12dp"
                 android:padding="8dp"
-                android:text="@string/tipo_medicamento_analgesico_antitermico"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/btnAntiInflamatorio"
-                android:layout_width="285dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="12dp"
-                android:padding="8dp"
-                android:text="@string/tipo_medicamento_antiinfalatorio"
-                android:textSize="20sp" />
+                android:text="Novo Calculo"
+                android:textSize="15sp" />
          
             <Button
                 android:id="@+id/btnSobre"
-                android:layout_width="80dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="10dp"

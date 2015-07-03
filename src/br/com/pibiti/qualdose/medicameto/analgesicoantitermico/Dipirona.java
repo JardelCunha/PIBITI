@@ -11,8 +11,10 @@ public class Dipirona extends Medicamento implements CalculaDose{
 		this.multiplicaMax = 25;
 		this.doseMax = 500;
 		this.intervalo = 6;
-		getIdade();
-		getPeso();
+	}
+	
+	public int getIntervalo() {
+		return this.getIntervalo();
 	}
 	
 	/*
@@ -21,12 +23,12 @@ public class Dipirona extends Medicamento implements CalculaDose{
 	 * @see br.com.pibiti.qualdose.medicameto.CalculaDose#CalculaDoseMin(int, double, double, double)
 	 */
 	public double CalculaDoseMin(int idade, 
-			double peso, double multiplicaMin){
-		double resultado = peso * multiplicaMin;
-		if (resultado < (doseMax/intervalo)){
+			double peso){
+		double resultado = peso * this.multiplicaMin;
+		if (resultado < (this.doseMax/this.intervalo)){
 			return resultado;	
 		}else{
-			double pacienteDoseMaxima = (doseMax/intervalo);
+			double pacienteDoseMaxima = (this.doseMax/this.intervalo);
 			return pacienteDoseMaxima;
 		}
 	}
@@ -37,24 +39,16 @@ public class Dipirona extends Medicamento implements CalculaDose{
 	 * @see br.com.pibiti.qualdose.medicameto.CalculaDose#CalculaDoseMax(int, double, double, double)
 	 */
 	public double CalculaDoseMax(int idade, 
-			double peso, double multiplicaMax){
+			double peso){
 		double resultado = peso * multiplicaMax;
 		
-		if (resultado < (doseMax/intervalo)){
+		if (resultado < (this.doseMax/intervalo)){
 			return resultado;	
 		}else{
-			double pacienteDoseMaxima = (doseMax/intervalo);
+			double pacienteDoseMaxima = (this.doseMax/intervalo);
 			return pacienteDoseMaxima;
 		}
 		
-	}
-	
-	public String getNome() {
-		return this.getNome();
-	}
-	
-	public int getIntervado() {
-		return this.getIntervado();
 	}
 
 }

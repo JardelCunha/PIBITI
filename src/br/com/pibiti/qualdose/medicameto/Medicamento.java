@@ -9,6 +9,10 @@ public abstract class Medicamento extends Paciente{
 	protected double doseMax;
 	protected int intervalo;
 	
+	public int getIntervalo() {
+		return intervalo;
+	}
+	
 	@Override
 	public int getIdade() {
 		return super.getIdade();

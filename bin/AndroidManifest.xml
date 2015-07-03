@@ -26,6 +26,10 @@
             android:name="br.com.pibiti.qualdose.SobreActivity"
             android:label="@string/action_sobre">
         </activity>
+        
+        <activity 
+            android:name="br.com.pibiti.qualdose.InsereDadosActivity">
+        </activity>
     </application>
 
 </manifest>
