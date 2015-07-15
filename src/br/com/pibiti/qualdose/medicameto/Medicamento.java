@@ -9,16 +9,12 @@ public abstract class Medicamento extends Paciente{
 	protected double doseMax;
 	protected int intervalo;
 	
-	public int getIntervalo() {
-		return intervalo;
-	}
+	abstract public String getNome();
 	
-	@Override
 	public int getIdade() {
 		return super.getIdade();
 	}
 	
-	@Override
 	public double getPeso() {
 		return super.getPeso();
 	}

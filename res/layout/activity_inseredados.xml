@@ -20,7 +20,6 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:orientation="vertical" >
-
         <EditText
             android:id="@+id/pesoEditText"
             android:layout_width="match_parent"
@@ -28,8 +27,6 @@
             android:ems="10"
             android:hint="Peso"
             android:inputType="numberDecimal" >
-
-            <requestFocus />
         </EditText>
 
         <EditText
@@ -51,14 +48,6 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="Calcular" />
-
-        <EditText
-            android:id="@+id/resultadoEditText"
-            android:layout_width="match_parent"
-            android:layout_height="84dp"
-            android:ems="10"
-            android:hint="Resultado..."
-            android:inputType="textMultiLine" />
     </LinearLayout>
 
 </RelativeLayout>

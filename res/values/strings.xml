@@ -5,11 +5,12 @@
     <string name="action_sobre">Sobre</string>
     <string name="action_settings">Sobre</string>
     <string name="titulo_activity_main">Qual Dose?</string>
+    <string name="descreve_calculadora">Calculadora pediátrica de Analgésicos e Anti-Térmicos</string>
     <string name="title_activity_tipo_medicamento">@string/app_name</string>
     <string name="tipo_medicamento_analgesico_antitermico">Analgésicos e Antitérmicos</string>
     <string name="tipo_medicamento_antiinfalatorio">Anti-Inflamatório</string>
     <string name="tipo_medicamento_antibiotico">Antibióticos</string>
-    <string name="sobre_licensa">Esse aplicativo não é licensiado por nenhum laboratório farmaceutico.</string>
+    <string name="sobre_licensa">Esse aplicativo não é licenciado por nenhum laboratório farmaceutico.</string>
     <string name="sobre_descricao">Essa aplicação, ainda está em sua versão beta e foi desenvolvida para ser usada por estudantes de medicina. Seu uso para automedicação não é recomendado. Evite a automedicação, procure um médico!</string>
     <string name="versao">Versao v</string>
     <string name="btnCalcularTexto">Calcular</string>

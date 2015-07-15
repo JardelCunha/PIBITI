@@ -3,12 +3,12 @@ package br.com.pibiti.qualdose.medicameto.analgesicoantitermico;
 import br.com.pibiti.qualdose.medicameto.CalculaDose;
 import br.com.pibiti.qualdose.medicameto.Medicamento;
 
-public class Paracetamol extends Medicamento implements CalculaDose{
+public class Tramadol extends Medicamento implements CalculaDose{
 	
-	public Paracetamol(){
-		this.nome = "Paracetamol";
-		this.multiplicaMin = 10;
-		this.multiplicaMax = 15;
+	public Tramadol(){
+		this.nome = "Tramadol";
+		this.multiplicaMax = 2;
+		this.multiplicaMin = 1;
 	}
 	
 	public String getNome() {
@@ -24,5 +24,5 @@ public class Paracetamol extends Medicamento implements CalculaDose{
 		double resultado = peso * this.multiplicaMax;
 		return resultado;
 	}
-
+	
 }

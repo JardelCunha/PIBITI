@@ -10,37 +10,27 @@ public class Ibuprofeno extends Medicamento implements CalculaDose {
 		this.multiplicaMax = 10;
 		this.doseMax = 40;
 		this.intervalo = 6;
-		double pesoMaiorQue = 30;
 	}
-	
+
 	public int getIntervalo() {
 		return this.intervalo;
 	}
 
 	public double CalculaDoseMin(int idade, double peso) {
 		double resultado = peso * this.multiplicaMax;
-		if(peso > 30){
-			if (resultado/peso >= this.doseMax) {
-				return resultado;
-			} else {
-				double resultadoDoseMax = (this.doseMax / this.intervalo);
-				return resultadoDoseMax;
-			}
-			
-		}else{
-			return resultado;
-		}
+		return resultado;
 	}
 
 	public double CalculaDoseMax(int idade, double peso) {
 
 		double resultado = peso * this.multiplicaMax;
-		if (resultado < (this.doseMax / this.intervalo)) {
-			return resultado;
-		} else {
-			double pacienteDoseMaxima = (this.doseMax / this.intervalo);
-			return pacienteDoseMaxima;
-		}
+		return resultado;
+	}
+
+	@Override
+	public String getNome() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

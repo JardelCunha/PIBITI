@@ -4,37 +4,26 @@ import br.com.pibiti.qualdose.medicameto.CalculaDose;
 import br.com.pibiti.qualdose.medicameto.Medicamento;
 
 public class Nimesulida extends Medicamento implements CalculaDose{
-	
+
 	public Nimesulida(){
 		this.nome = "Nimesulida";
 		this.multiplicaMin = 50;
 		this.multiplicaMax = 100;
 		this.doseMax = 200;
-		this.intervalo = 12;
 	}
-
-	public int getIntervalo() {
-		return this.intervalo;
+	
+	public String getNome() {
+		return this.nome;
 	}
 
 	public double CalculaDoseMin(int idade, double peso) {
-		if(idade <= 12){
-			return 0;
-		}else{
-			double resultado = this.multiplicaMin * peso;
-			return resultado;
-		}
+		double resultado = this.multiplicaMin;
+		return resultado;
 	}
 
 	public double CalculaDoseMax(int idade, double peso) {
-		if(idade <= 12){
-			return 0;
-		}else{
-			double resultado = this.multiplicaMax * peso;
-			return resultado;
-		}
+		double resultado = this.multiplicaMax;
+		return resultado;
 	}
-	
-	
 
 }

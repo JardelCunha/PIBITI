@@ -28,6 +28,15 @@
                 android:gravity="center"
                 android:scaleType="centerInside"
                 android:src="@drawable/droppertexto" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/descreve_calculadora"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnNovoCalculo"

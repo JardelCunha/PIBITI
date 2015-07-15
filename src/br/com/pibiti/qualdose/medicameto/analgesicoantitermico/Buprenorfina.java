@@ -3,12 +3,13 @@ package br.com.pibiti.qualdose.medicameto.analgesicoantitermico;
 import br.com.pibiti.qualdose.medicameto.CalculaDose;
 import br.com.pibiti.qualdose.medicameto.Medicamento;
 
-public class Paracetamol extends Medicamento implements CalculaDose{
-	
-	public Paracetamol(){
-		this.nome = "Paracetamol";
-		this.multiplicaMin = 10;
-		this.multiplicaMax = 15;
+public class Buprenorfina extends Medicamento implements CalculaDose{
+
+	public Buprenorfina(){
+		this.nome = "Buprenorfina";
+		this.multiplicaMin = 0.2;
+		this.multiplicaMax = 0.4;
+		this.intervalo = 6;
 	}
 	
 	public String getNome() {
@@ -19,6 +20,7 @@ public class Paracetamol extends Medicamento implements CalculaDose{
 		double resultado = peso * this.multiplicaMin;
 		return resultado;
 	}
+
 
 	public double CalculaDoseMax(int idade, double peso) {
 		double resultado = peso * this.multiplicaMax;
